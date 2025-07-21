@@ -6,7 +6,7 @@ import ATS from "../components/ATS";
 import Details from "../components/Details";
 
 export const meta = () => ([
-    { title: 'Resumind | Review' },
+    { title: 'Resumind | Review ' },
     { name: 'description', content: 'Detailed overview of your resume' },
 ])
 
@@ -48,6 +48,7 @@ const Resume = () => {
 
         loadResume();
     }, [id]);
+
     return (
         <main className="!pt-0">
             <nav className="resume-nav">
